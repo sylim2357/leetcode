@@ -13,27 +13,26 @@
 #         self.val = x
 #         self.next = None
 
-class Solution:
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        count = 0
-        num1 = 0
-        while l1:
-            num1 += l1.val*10**count
-            l1 = l1.next
-            count += 1
-        count = 0
-        num2 = 0
-        while l2:
-            num2 += l2.val*10**count
-            l2 = l2.next
-            count += 1
-        answer = num1 + num2
-        for idx, i in enumerate(map(int, str(answer))):
-            if idx == 0:
-                last_node = ListNode(i)
-                answer_node = last_node
-            else:
-                prev_node = ListNode(i)
-                prev_node.next = answer_node
-                answer_node = prev_node
-        return answer_node
+def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+    count = 0
+    num1 = 0
+    while l1:
+        num1 += l1.val*10**count
+        l1 = l1.next
+        count += 1
+    count = 0
+    num2 = 0
+    while l2:
+        num2 += l2.val*10**count
+        l2 = l2.next
+        count += 1
+    answer = num1 + num2
+    for idx, i in enumerate(map(int, str(answer))):
+        if idx == 0:
+            last_node = ListNode(i)
+            answer_node = last_node
+        else:
+            prev_node = ListNode(i)
+            prev_node.next = answer_node
+            answer_node = prev_node
+    return answer_node
