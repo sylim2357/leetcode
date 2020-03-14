@@ -13,7 +13,7 @@
 #         self.val = x
 #         self.next = None
 
-def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     count = 0
     num1 = 0
     while l1:

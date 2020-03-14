@@ -5,7 +5,7 @@
 # Comment: NA
 # -----------------------------------------------------------
 
-def lengthOfLongestSubstring(self, s: str) -> int:
+def lengthOfLongestSubstring(s: str) -> int:
     substr = {}
     ans = 0
     i = 0
