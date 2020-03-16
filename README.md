@@ -1,2 +1,2 @@
 # leetcode
-Python attempts of leetcode questions
+Python attempts on leetcode questions
