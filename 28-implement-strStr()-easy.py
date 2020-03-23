@@ -1,5 +1,5 @@
 # -----------------------------------------------------------
-# Failure. Need Review
+# First Attempt
 # Runtime: 20 ms, faster than 97.95% of Python3 online submissions for Implement strStr().
 # Memory Usage: 13.1 MB, less than 92.31% of Python3 online submissions for Implement strStr().
 # Comment: NA
